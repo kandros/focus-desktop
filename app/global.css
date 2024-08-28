@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    @apply bg-transparent;
+    @apply rounded-xl;
+  }
+  body {
+    @apply bg-transparent;
+    @apply rounded-xl;
+  }
+}
